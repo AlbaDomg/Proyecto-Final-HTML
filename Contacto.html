@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Clase 5 - Texto en HTML</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Página de ejemplos vistos en la clase 5: Texto en HTML">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="p, h1, h2, h3, h4, h5">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@AlbaDomg">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <main>
+        <div>
+            <h2>Dónde Estamos</h2>
+            <nav>
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.7117951594514!2d-3.967771324700357!3d36.72948237168361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd723b017cd928cd%3A0x40deb3f57886f78!2sAL%20ALBA%20bio-gastrobodega!5e0!3m2!1ses!2ses!4v1764647575145!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </nav>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend><strong>Contacta con nosotros</strong></legend>
+                <p>
+                    8 THE GREEN STE R, Dover, 19901, Delaware, USA
+                </p>
+                <p>
+                    contacto@conquerblocks.com
+                </p>
+                <p>
+                    +34 620 922 500
+                </p>
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend><strong>Formulario de contacto</strong></legend>
+                <form action="#" name="registro" method="get"></form>
+                <p>
+                    <label for="nombre"><strong>Nombre y apellidos:</strong></label>
+                    <input type="text" name="nombre" maxlength="50">
+                </p>
+                <p>
+                    <label for="empresa"><strong>Empresa:</strong></label>
+                    <input type="text" name="empresa" maxlength="50">
+                </p>
+                 <p>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" maxlength="50">
+                </p>
+                 <p>
+                    <label for="telefono"><strong>Telefono:</strong></label>
+                    <input type="tel" name="telefono" maxlength="9" minlength="9">
+                </p>
+                <p>
+                    <label for="paises europeos"><strong>País:</strong></label>
+                    <select id="paises europeos" name="paises europeos">
+                        <option value="">--select--</option>
+                        <option value="AT">Austria</option>
+                        <option value="BE">Bélgica</option>
+                        <option value="BG">Bulgaria</option>
+                        <option value="HR">Croacia</option>
+                        <option value="CY">Chipre</option>
+                        <option value="CZ">Chequia</option>
+                        <option value="DK">Dinamarca</option>
+                        <option value="EE">Estonia</option>
+                        <option value="FI">Finlandia</option>
+                        <option value="FR">Francia</option>
+                        <option value="DE">Alemania</option>
+                        <option value="GR">Grecia</option>
+                        <option value="HU">Hungría</option>
+                        <option value="IE">Irlanda</option>
+                        <option value="IT">Italia</option>
+                        <option value="LV">Letonia</option>
+                        <option value="LT">Lituania</option>
+                        <option value="LU">Luxemburgo</option>
+                        <option value="MT">Malta</option>
+                        <option value="NL">Países Bajos</option>
+                        <option value="PL">Polonia</option>
+                        <option value="PT">Portugal</option>
+                        <option value="RO">Rumanía</option>
+                        <option value="SK">Eslovaquia</option>
+                        <option value="SI">Eslovenia</option>
+                        <option value="ES">España</option>
+                        <option value="SE">Suecia</option>
+                    </select>
+                </p>
+                <p>
+                   <label for="provincias"><strong>Provincia:</strong></label>
+                   <select id="provincias" name="provincias"> 
+                        <option value="">--select--</option>
+                        <option value="A Coruña">A Coruña</option>
+                        <option value="Álava">Álava</option>
+                        <option value="Albacete">Albacete</option>
+                        <option value="Alicante">Alicante</option>
+                        <option value="Almería">Almería</option>
+                        <option value="Asturias">Asturias</option>
+                        <option value="Ávila">Ávila</option>
+                        <option value="Badajoz">Badajoz</option>
+                        <option value="Baleares">Baleares</option>
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Burgos">Burgos</option>
+                        <option value="Cáceres">Cáceres</option>
+                        <option value="Cádiz">Cádiz</option>
+                        <option value="Cantabria">Cantabria</option>
+                        <option value="Castellón">Castellón</option>
+                        <option value="Ceuta">Ceuta</option>
+                        <option value="Ciudad Real">Ciudad Real</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Cuenca">Cuenca</option>
+                        <option value="Girona">Girona</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Guadalajara">Guadalajara</option>
+                        <option value="Gipuzkoa">Gipuzkoa</option>
+                        <option value="Huelva">Huelva</option>
+                        <option value="Huesca">Huesca</option>
+                        <option value="Jaén">Jaén</option>
+                        <option value="La Rioja">La Rioja</option>
+                        <option value="Las Palmas">Las Palmas</option>
+                        <option value="León">León</option>
+                        <option value="Lleida">Lleida</option>
+                        <option value="Lugo">Lugo</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Málaga">Málaga</option>
+                        <option value="Melilla">Melilla</option>
+                        <option value="Murcia">Murcia</option>
+                        <option value="Navarra">Navarra</option>
+                        <option value="Ourense">Ourense</option>
+                        <option value="Palencia">Palencia</option>
+                        <option value="Pontevedra">Pontevedra</option>
+                        <option value="Salamanca">Salamanca</option>
+                        <option value="Santa Cruz de Tenerife">Santa Cruz de Tenerife</option>
+                        <option value="Segovia">Segovia</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Soria">Soria</option>
+                        <option value="Tarragona">Tarragona</option>
+                        <option value="Teruel">Teruel</option>
+                        <option value="Toledo">Toledo</option>
+                        <option value="Valencia">Valencia</option>
+                        <option value="Valladolid">Valladolid</option>
+                        <option value="Zamora">Zamora</option>
+                        <option value="Zaragoza">Zaragoza</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="mensaje"><strong>Mensaje:</strong></label> </br>
+                    <textarea name="mensaje" id="mensaje" rows="6" cols="50"></textarea>
+                </p>
+                
+
+            </fieldset>
+        </div>
+
+
+    </main>
+    
+
+    <p><a href="index.html">⬅ Volver atrás</a></p>
+
+    <footer>
+        © Conquer Academy - 2025
+    </footer>
+</body>
+
+</html>
